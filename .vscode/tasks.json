@@ -1,0 +1,41 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "group": "build",
+            "type": "npm",
+            "script": "build",
+            "problemMatcher": [
+                "$gulp-tsc"
+            ],
+            "presentation": {
+                "focus": true
+            }
+        },
+        {
+            "label": "build-debug",
+            "group": "build",
+            "type": "npm",
+            "script": "build-debug",
+            "problemMatcher": [
+                "$gulp-tsc"
+            ],
+            "presentation": {
+                "focus": true
+            }
+        },
+        {
+            "label": "send-to-espurino",
+            "group": "build",
+            "type": "npm",
+            "script": "upload",
+            "problemMatcher": [],
+            "presentation": {
+                "focus": true
+            }
+        }
+    ]
+}

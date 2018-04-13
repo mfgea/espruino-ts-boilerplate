@@ -1,0 +1,1 @@
+export default {"wifi":{"width":18,"height":13}}

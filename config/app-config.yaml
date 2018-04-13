@@ -1,0 +1,10 @@
+# All this values can be overriden by creating an app-config.user.yaml file
+
+pins:
+  sclPin: NodeMCU.D1
+  sdaPin: NodeMCU.D2
+
+# Your network name and password.
+wifi:
+  ssid: xxxx
+  password: yyyy

@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "lib": [
+      "es2015",
+      "dom" // setInterval, console
+    ],
+    "allowSyntheticDefaultImports": false,
+    "baseUrl": ".",
+    "paths": {
+      "*": [ "./types/*" ],
+      "modules/*": [ "./src/modules/*" ]
+    }
+  },
+  "include": [
+    "static-data/**/*.ts",
+    "types/**/*.ts",
+    "src/**/*.ts"
+  ]
+}
